@@ -1,0 +1,28 @@
+@model List<Inventario.Abstracciones.ModelosParaUI.ClienteDto>
+
+<h2>Listado de Clientes</h2>
+
+<p>@Html.ActionLink("Nuevo Cliente", "CrearCliente")</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Nombre</th>
+        <th>Identificación</th>
+        <th>Correo</th>
+        <th>Acciones</th>
+    </tr>
+
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.NombreCompleto</td>
+            <td>@c.Identificacion</td>
+            <td>@c.Correo</td>
+            <td>
+                @Html.ActionLink("Detalles", "DetallesCliente") |
+                @Html.ActionLink("Editar", "EditarCliente") |
+                @Html.ActionLink("Eliminar", "EliminarCliente")
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,12 @@
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\rjosu\source\repos\CursoPresencial\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.dll
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\bin\Debug\Inventario.Abstracciones.pdb
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.dll
+C:\Users\Usuario\Downloads\MiPrimerLaboratorio\MiPrimerLaboratorio\Inventario.Abstracciones\obj\Debug\Inventario.Abstracciones.pdb

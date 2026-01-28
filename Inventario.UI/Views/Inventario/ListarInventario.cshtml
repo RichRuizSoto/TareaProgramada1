@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Inventario.Abstracciones.ModelosParaUI.InventarioDto>
+
+@{
+    ViewBag.Title = "ListarInventario";
+}
+
+<h2>ListarInventario</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CrearInventario")
+</p>
+<div class="table table-responsive">
+	<table class="table">
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.CodigoDelRepuesto)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.NombreDelRepuesto)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.MarcaDelRepuesto)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Vehiculo)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Modelo)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Anio)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Cantidad)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FechaDeRegistro)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.FechaDeModificacion)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.Estado)
+			</th>
+			<th></th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.CodigoDelRepuesto)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.NombreDelRepuesto)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.MarcaDelRepuesto)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Vehiculo)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Modelo)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Anio)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Cantidad)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.FechaDeRegistro)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.FechaDeModificacion)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Estado)
+				</td>
+				<td>
+					@Html.ActionLink("Edit", "EditarInventario", new { /* id=item.PrimaryKey */ }) |
+					@Html.ActionLink("Details", "DetallesInventario", new { /* id=item.PrimaryKey */ }) |
+					@Html.ActionLink("Delete", "EliminarInventario", new { /* id=item.PrimaryKey */ })
+				</td>
+			</tr>
+		}
+
+	</table>
+</div>

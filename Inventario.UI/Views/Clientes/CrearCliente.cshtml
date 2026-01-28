@@ -1,0 +1,17 @@
+@model Inventario.Abstracciones.ModelosParaUI.ClienteDto
+
+<h2>Registrar Cliente</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(m => m.NombreCompleto)
+    @Html.TextBoxFor(m => m.NombreCompleto)
+
+    @Html.LabelFor(m => m.Identificacion)
+    @Html.TextBoxFor(m => m.Identificacion)
+
+    @Html.LabelFor(m => m.Correo)
+    @Html.TextBoxFor(m => m.Correo)
+
+    <button type="submit">Guardar</button>
+}

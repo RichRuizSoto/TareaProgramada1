@@ -1,0 +1,11 @@
+@model Inventario.Abstracciones.ModelosParaUI.ClienteDto
+
+<h2>Eliminar Cliente</h2>
+
+<p>¿Desea eliminar este cliente?</p>
+
+@using (Html.BeginForm())
+{
+    <button type="submit">Eliminar</button>
+    @Html.ActionLink("Cancelar", "ListarClientes")
+}

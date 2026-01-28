@@ -1,0 +1,9 @@
+@model Inventario.Abstracciones.ModelosParaUI.ClienteDto
+
+<h2>Detalles del Cliente</h2>
+
+<p><strong>Nombre:</strong> @Model.NombreCompleto</p>
+<p><strong>Correo:</strong> @Model.Correo</p>
+<p><strong>Teléfono:</strong> @Model.Telefono</p>
+
+@Html.ActionLink("Volver", "ListarClientes")
